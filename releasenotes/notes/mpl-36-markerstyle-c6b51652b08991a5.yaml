@@ -1,0 +1,5 @@
+---
+fixes:
+  - |
+    Removed no-argument construction of `matplotlib.markers.MarkerStyle` for
+    [compatibility with matplotlib>=3.6](https://matplotlib.org/stable/api/prev_api_changes/api_changes_3.6.0.html#positional-keyword-arguments).
